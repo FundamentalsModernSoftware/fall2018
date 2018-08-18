@@ -3,7 +3,7 @@
 
 // Run button configuration
   "commands": {
-        "Python": "python"
+        "Python": "python",
         "Manual Sync": "bash .guides/helpers/git-samples.sh; exit 0;"
   },
 
