@@ -4,7 +4,7 @@
 // Run button configuration
   "commands": {
         "Python": "python",
-        "Command Line": "bash",
+        "Command Line": "",
         "Sync": "bash .guides/helpers/git-samples.sh; exit 0;"
   },
 
