@@ -1,5 +1,11 @@
 import csv
 
+# Read CSV file into lines
+f = open('zipcodesheader.csv')
+reader = csv.DictReader(f)
+zipcodes = list(reader)
+f.close()
+
 def match_state(rows, state):
     matches = []
     for row in rows:
