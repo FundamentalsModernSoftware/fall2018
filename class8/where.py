@@ -18,7 +18,7 @@ def where(rows, field, value):
 def select(rows, field):
     values = []
     for row in rows:
-        values.append(row[field_name])
+        values.append(row[field])
     return values
 
 print('Zip codes in New York: ')
