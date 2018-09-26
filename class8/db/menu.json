@@ -1,0 +1,8 @@
+{
+   "items":
+   {"filename": "items.csv",
+   "fields": ["ID","Name","Price","Type"] },
+   "cart":
+  {"filename": "cart.csv",
+   "fields": ["ID","Quantity"] }
+}
