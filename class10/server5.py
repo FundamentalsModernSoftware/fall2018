@@ -12,4 +12,4 @@ def iss():
     r = requests.get('http://api.open-notify.org/iss-now.json')
     return r.text
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0', port=3000)

@@ -10,4 +10,4 @@ def lookup(zipcode):
     text = zipcode + ' is in ' + rows[0]['Place Name'] + ', ' + rows[0]['State']
     return text
 
-app.run(host='0.0.0.0')
+app.run(host='0.0.0.0', port=3000)
