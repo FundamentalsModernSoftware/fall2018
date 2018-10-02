@@ -1,0 +1,5 @@
+{
+   "zipcodes": {
+   "filename": "zipcodes.csv",
+   "fields": ["Zip Code","Place Name","State","State Abbreviation","State Subdivision","Latitude","Longitude"] }
+}
