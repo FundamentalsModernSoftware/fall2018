@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 from fmsdb import *
 
-app = Flask(__name__)s
+app = Flask(__name__)
 open_db('menu.json')
 
 def get_sections():
