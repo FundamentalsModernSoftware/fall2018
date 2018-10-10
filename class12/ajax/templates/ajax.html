@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+  <title>The Branniganizer</title>
+</head>
+<html>
+<body>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "zapp", true);
+  xhttp.send();
+}
+</script>
+  <h2 id="demo"></h2>
+<button type="button" onclick="loadDoc()">Zapp me!</button>
+</body>
+</html>
