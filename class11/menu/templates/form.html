@@ -1,0 +1,26 @@
+<hr>
+  <p>Select an action</p>
+
+    <form action="menu" method="GET">
+        <input type="submit" value="Display Menu">
+    </form>
+
+    <hr>
+
+    <form action="submenu" method="GET">
+        <select name="section">
+          {% for section in sections %}
+          <option value="{{section['Section']}}">{{section['Section']}}</option>
+          {% endfor %}
+        </select><br>
+        <input type="submit" value="Display Menu Section">
+    </form>
+
+    <hr>
+
+    <form action="add" method="POST">
+      <input type="text" name="name" placeholder="Item name"><br>
+      <input type="text" name="price" placeholder="Item price"><br>
+      <input type="text" name="section" placeholder="Menu section"><br>
+      <input type="submit" value="Add Menu Item">
+    </form>

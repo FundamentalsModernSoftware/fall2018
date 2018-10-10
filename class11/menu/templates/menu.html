@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>FMS Cafe</title></head>
+<body>
+  <h1>Welcome to the FMS Cafe</h1>
+    <h2>Today, we are proud to offer you</h2>
+      {% for item in items %}
+      <p><b>{{item['Name']}}</b>: {{item['Price']}}</p>
+      {% endfor %}
+
+  {% include 'form.html' %}
+</body>
+</html>

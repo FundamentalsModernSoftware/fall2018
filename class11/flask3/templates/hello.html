@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first list-based variable-passing web page</title>
+</head>
+<body>
+  <p>The secret words of the day are</p>
+  <ul>
+  {% for word in secretWords %}
+    <li>{{word}}</li>
+  {% endfor %}
+  </ul>
+</body>
+</html>

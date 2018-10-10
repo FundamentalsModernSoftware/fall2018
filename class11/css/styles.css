@@ -1,0 +1,28 @@
+BODY
+{
+  font-family: Palatino;
+  width: 60em;
+  background-color: #F5F5FF;
+}
+
+P
+{
+  text-indent: 1em hanging;
+}
+
+H1, H2, H3, H4, H5, H6
+{
+  color: orange;
+  font-size: 150%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  line-height: 1.2em;
+  text-align: right;
+}
+
+LI
+{
+  font-size: 80%;
+}

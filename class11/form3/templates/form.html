@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Form demo</title></head>
+<body>
+    <p>Enter some text</p>
+    <form action="done" method="POST">
+        <input type="text" placeholder="first name" name="first name"><br>
+        <input type="text" placeholder="last name" name="last name">
+        <br><br>
+        <input type="checkbox" name="serious">This is a serious issue<br>
+        <input type="checkbox" name="time-sensitive">This is a time-sensitive issue
+        <br><br>
+        Which of the following best describes your reason for unsubscribing?<br>
+        <input type="radio" name="reason" value="nosignup"> I never signed up for this list.<br>
+        <input type="radio" name="reason" value="toomuchemail"> I receive too much email from this list.<br>
+        <input type="radio" name="reason" value="other"> Other.<br><br>
+        <textarea name="complaint" cols="50" rows="8" placeholder="Please describe your complaint in as much detail as possible."></textarea>
+        <br><br>
+        How do you want us to contact you?<select name="contact">
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+          <option value="telegram">Singing telegram</option>
+          <option value="telepathy">Telepathy</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
