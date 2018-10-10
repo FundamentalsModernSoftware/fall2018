@@ -1,8 +1,7 @@
 from flask import Flask, request, render_template
 from fmsdb import *
 
-app = Flask(__name__)
-
+app = Flask(__name__)s
 open_db('menu.json')
 
 def get_sections():
@@ -40,5 +39,4 @@ def add():
                            sections = get_sections())
 
 
-if __name__ == "__main__":
-    app.run()
+app.run(host='0.0.0.0', port=3000)

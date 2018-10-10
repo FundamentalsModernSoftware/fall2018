@@ -11,5 +11,4 @@ def formSubmit():
     m = request.form['message']
     return render_template('result.html', msg = m)
 
-if __name__ == "__main__":
-    app.run()
+app.run(host='0.0.0.0', port=3000)
